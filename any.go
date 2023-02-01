@@ -1,3 +1,6 @@
+// Copyright (c) HashiCorp, Inc.
+// SPDX-License-Identifier: MPL-2.0
+
 //go:generate sh -c "protoc --go_out=paths=source_relative:. any.proto"
 
 package opaqueany
